@@ -31,7 +31,7 @@ li {
 .left {
 	float: left;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 140px;
 	margin-left: 100px;
 }
 
@@ -45,6 +45,7 @@ li {
 .menu-item {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	max-width: 380px;
 }
 
 #logo-main {
@@ -79,4 +80,26 @@ li {
    white-space: -moz-pre-wrap; 
    white-space: -o-pre-wrap;   
    word-wrap: break-word;
+}
+
+#login-form {
+	border: 1px solid #999999;
+	margin: 100px 250px 0px 250px;
+	text-align: center;
+}
+
+#email-field {
+	margin-top: 40px;
+}
+
+#submit-button {
+	margin-top: 10px;
+	background-color: #333333;
+	color: #fff;
+	border: none;
+}
+
+.login-form-item {
+	text-align: center;
+	margin-top: 10px;
 }

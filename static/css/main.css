@@ -16,7 +16,6 @@ a {
 
 a:hover {
 	color: #00ABCC;
-	padding-left: 20px;
 	transition-duration: 0.2s;
 }
 

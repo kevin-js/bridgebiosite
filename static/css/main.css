@@ -16,10 +16,14 @@
 	}
 
 	#logo-main {
-		margin-left: 5px;
-		margin-right: 5px;
-		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 20px;
 		height: 22vh;
+	}
+
+	#title-text {
+		margin-left: 10px;
 	}
 }
 
@@ -41,6 +45,35 @@
 	#logo-main {
 		width: 400px;
 		height: 150px;
+	}
+}
+
+@media screen and (max-width: 960px) and (orientation: landscape) {
+	.site-container {
+		display: table;
+	}
+	.left {
+		float: none;
+		display: table-footer-group;
+	}
+	.right {
+		float: none;
+		display: table-header-group;
+	}
+
+	#associate-list {
+		padding-left: 20px;
+	}
+
+	#logo-main {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 20px;
+		height: 22vh;
+	}
+
+	#title-text {
+		margin-left: 10px;
 	}
 }
 

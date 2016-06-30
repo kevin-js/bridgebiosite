@@ -1,8 +1,3 @@
-@font-face {
-	font-family: MuseoSans;
-	src: url('MuseoSans_500-webfont.woff');
-}
-
 @media screen and (max-width: 480px) {
 	.site-container {
 		display: table;
@@ -14,6 +9,16 @@
 
 	.right {
 		display: table-header-group;
+	}
+
+	#associate-list {
+		padding-left: 20px;
+	}
+
+	#logo-main {
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 10px;
 	}
 }
 
@@ -27,21 +32,36 @@
 		float: right;
 		display: inline-block;
 	}
+
+	#associate-list {
+		padding-left: 10px;
+	}
+
+	#logo-main {
+		width: 400px;
+		height: 150px;
+	}
+}
+
+@font-face {
+	font-family: MuseoSans;
+	src: url('MuseoSans_500-webfont.woff');
 }
 
 body {
-	font-family: MuseoSans, Arial;
+	font-family: MuseoSans, Arial !important;
 	color: #333333;
 }
 
 a {
 	text-decoration: none;
-	color: #333333;
+	color: #333333 !important;
 	transition-duration: 0.2s;
 }
 
 a:hover {
-	color: #00ABCC;
+	color: #00ABCC !important;
+	text-decoration: none !important;
 	transition-duration: 0.2s;
 }
 
@@ -69,12 +89,6 @@ li {
 	max-width: 380px;
 }
 
-
-#logo-main {
-	width: 400px;
-	height: 150px;
-}
-
 #logo-main img {
 	width: 100%;
 	height: 100%;
@@ -86,10 +100,6 @@ li {
 
 #about-description {
 	display: none;
-}
-
-#associate-list {
-	padding-left: 0px;
 }
 
 .associate {
